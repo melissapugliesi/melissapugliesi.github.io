@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+h2 {font-size: 12px; 
+}
+
+body {
+	text-align: center;
+	background: url("https://s3.postimg.org/ws0seqzlv/rotator_NFB3.jpg") no-repeat fixed center;
+	font-family: Helvetica;
+	background-size: cover;
+}
+a {
+	color: #E861C3;
+	text-decoration: none;
+}
+nav {
+	text-align: right;
+	padding: 15px;
+}
+footer { 
+		position: 
+		absolute;
+		right: 0;
+  		bottom: 0;
+  		left: 0;
+
+}
