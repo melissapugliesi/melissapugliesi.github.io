@@ -15,6 +15,10 @@ header {
   text-align: left;
   padding: 20px;
 }
+h1 {display:inline;
+	padding: 0 10px
+
+}
 h2 {font-size: 12px; 
 }
 a {
@@ -41,7 +45,7 @@ footer {
 	font-size: 20px
 	color: #E861C3;
 	text-transform: uppercase;
-	padding:10px;
+	padding: 0, 10px 10px 10px;
 	margin: 0 10px;
 	border:none;
 }
@@ -49,4 +53,5 @@ footer {
 	width: 30px;
     margin-right: 150px;
     margin-left: 500px;
+
 }
