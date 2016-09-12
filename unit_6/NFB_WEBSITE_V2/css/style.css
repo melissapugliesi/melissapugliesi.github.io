@@ -158,19 +158,19 @@ width: 100%;
     text-decoration:none;
     position:absolute;
     top:230px;
-    width: 100%;
     left: 0;
+    right: 0;
+    background:#ffffff;
+    width: 332px;
+    display: inline-block;
+    margin: auto;
     text-align: center;
+    padding: 7px;
     /*left:50%;
     -webkit-transform:translateX(-50%);
     -moz-transform:translateX(-50%);
     -o-transform:translateX(-50%);
     transform:translateX(-50%); */
-}
-
-.CTA-block a {
-	background-color: white;
-	padding:5px 70px;
 }
 
 .social-icons {
