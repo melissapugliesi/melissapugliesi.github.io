@@ -1,0 +1,239 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	text-align: center;
+	background: url("") no-repeat fixed center;
+	font-family:'Roboto', sans-serif;
+	background-size: cover;
+}
+header {
+  text-align: left;
+  padding: .6em 1.2em .6em 1.2em;
+}
+h1 {display:inline;
+	padding: 0 .6em;
+
+}
+p, h2, h4 {
+	font-size: .75em; 
+	font-family:'Roboto', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .6em;
+	letter-spacing: 1px;
+	padding: 1.2em .6em;
+
+}
+nav a:hover {
+    border-bottom-width: .1em;
+    border-bottom-style: solid;
+}
+a {
+	color: #000000;
+	font-family:'Roboto', sans-serif;
+	font-size: .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+nav {
+	font-family:'Roboto', sans-serif;
+	font-size: 1em;
+	letter-spacing: .1em;
+	text-align: right;
+	padding: 3.12em 3.75em 0 2.8em;
+	position: absolute;
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+nav a {
+	font-family: 'Roboto', sans-serif;
+	font-size: .75em;
+	color: #00000;
+	text-transform: uppercase;
+	padding: 0, .7em .7em 1.2em;
+	margin: 0 1.6em;
+	border:none;
+}
+footer { 
+		border-top: .1em solid;
+		padding: 1.2em;
+  		clear: both;
+  		text-align: left;
+}
+footer a {
+	font-family:'Roboto', sans-serif;
+	font-size: .6em;
+	letter-spacing: .1em;
+	text-align: right;
+	padding: 1.6em .6em;
+	text-decoration:none;
+	border-bottom-style: none;
+}
+footer p {
+	float: right;
+}
+
+.Free-Shipping{
+	display: inline-block;
+	position: top;
+	text-decoration: none;
+	font-size: .9em;
+
+}
+.Top-Row{
+	background-color: #DCDCDC;
+	letter-spacing: .15em;
+	text-decoration: none;
+	font-size: .75em;
+	padding: .1em 0;
+}
+.logo{
+	display: inline-block;
+    height: 3em;
+    margin: 1em 0 .8em;
+    vertical-align: top;
+}
+
+.main{
+	width: 85%;
+	margin: auto;
+	position: relative;
+	padding: 0 0 3% 3%;
+}
+.main img{
+	width: 100%
+}
+
+
+.CTA-shop-new {
+    font-family:'Roboto', sans-serif;
+    text-transform:uppercase;
+    color:#000;
+    background-color: white;
+    text-decoration:none;
+    padding:.4em 4.3em;
+    position:absolute;
+    top:500px;
+    left:50%;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.block {
+	float:left;
+	position: relative;
+	width:50%;
+    padding: 2%;
+}
+
+/*.block:last-of-type {
+	padding-right: 0;
+}*/
+
+.block img {
+width: 100%;
+}
+
+.block2 img{
+	width: 100%;
+}
+
+#shop{
+	padding:0 15%;
+}
+
+
+.CTA-block {
+	font-family:'Roboto', sans-serif;
+    text-transform:uppercase;
+    color:#000;
+    text-decoration:none;
+    position:absolute;
+    top:230px;
+    left: 0;
+    right: 0;
+    background:#ffffff;
+    width: 332px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+    /*left:50%;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%); */
+}
+
+.social-icons {
+	align: left;
+	float: right;
+}
+
+#mc_embed_signup{
+	background:#fff; 
+	float: right;
+	font-size:.5em;
+	font-family:'Roboto', sans-serif;
+	text-transform:uppercase;
+}
+
+#mc_embed_signup_scroll{
+	background:#fff; 
+	float: right;
+	font-size:.5em;
+	font-family:'Roboto', sans-serif;
+	text-transform:uppercase;
+	width:100%;
+
+}
+
+#mobile {
+	display: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 800px) {
+	nav {
+      float: none;
+    }
+    nav a {
+    	float: right;
+    	width: auto;
+    	display: none;
+    }
+    #mobile {
+    	display: block; 
+    }
+    nav:hover a {
+    	display: block;
+    }
+    img {
+    width: 50px;
+    }
+    footer {
+    	text-align: center;
+    }
+    /*#shopnew {
+    	display: none;
+    }*/
+}
